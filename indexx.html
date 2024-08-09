@@ -8,18 +8,30 @@
 <body>
 <form action="">
     <p>micana</p>
-    <input type="text" name="nome" placeholder="matheusmiranda">
+    <input type="text" name="nome" placeholder="matheusmiranda" required>
     <br>
-    <input type="email" name="email" placeholder="ex:matheus.miranda2@gmail.com">
+    <input type="email" name="email" placeholder="ex:matheus.miranda2@gmail.com" required>
     <br>
-    <input type="number" name="telefone" placeholder="(xx)xxxxx-xxxx">
+    <input type="number" name="telefone" placeholder="(xx)xxxxx-xxxx" required>
     <br>
-    <input type="radio" name="work" value="Sim"> com certeza
+    <input type="radio" name="work" value="Sim" checked> com certeza 
     <input type="radio" name="work" value="Não"> Sem certeza
     <br>
+    <select name="estado" id="">
+        <option value="1">Paraná</option>
+        <option value="2">São Paulo</option>
+        <option value="3">Rio de Janeiro</option>
+        <option value="4">Bahia</option>
+        <option value="5">Santa Catarina</option>
+    </select>
+<br>
+<textarea name="feadback" id=""></textarea>
+<br>
+
     <input type="checkbox" name="novidades"> Aceita entrar na farofa da gkay
     <br>
-    
+    <button type="submit"></button>
+    <button type="reset"></button>
 </form>    
 </body>
 </html>
